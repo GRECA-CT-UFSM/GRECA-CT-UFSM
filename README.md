@@ -1,103 +1,206 @@
+
+
+# <p align="center">
+
+<img width="100%" src="data:image/svg+xml;utf8,
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='320'>
+<defs>
+ <linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'>
+   <stop offset='0%' style='stop-color:%2300274d;stop-opacity:1' />
+   <stop offset='100%' style='stop-color:%23005588;stop-opacity:1' />
+ </linearGradient>
+</defs>
+<rect width='1600' height='320' fill='url(%23grad)' rx='10'/>
+<text x='50%' y='42%' fill='white' font-size='64' font-family='Arial' text-anchor='middle' dominant-baseline='middle'>
+ GRECA-UFSM
+</text>
+<text x='50%' y='65%' fill='white' font-size='32' font-family='Arial' text-anchor='middle' dominant-baseline='middle'>
+ Networks and Applied Computing Research Group
+</text>
+<text x='50%' y='82%' fill='white' font-size='26' font-family='Arial' text-anchor='middle' dominant-baseline='middle'>
+ Federal University of Santa Maria (UFSM)
+</text>
+</svg>"/>
+
+</p>
+
+---
+
 # GRECA-UFSM
 
-**Grupo de Redes e Computação Aplicada**
-**Universidade Federal de Santa Maria (UFSM)**
-**Orientação: Prof. Dr. Carlos Raniery Paula dos Santos**
+### Networks and Applied Computing Research Group
+
+Federal University of Santa Maria (UFSM)
+Advisor: Prof. Dr. Carlos Raniery Paula dos Santos
 
 ---
 
-## 1. Apresentação
+## Badges
 
-O **GRECA-UFSM (Grupo de Redes e Computação Aplicada)** é um laboratório de pesquisa da Universidade Federal de Santa Maria (UFSM), dedicado ao estudo e desenvolvimento de soluções inovadoras nas áreas de redes programáveis, inteligência artificial aplicada à segurança de redes e computação de alto desempenho voltada à automação e tomada de decisão inteligente.
-
-Sob a orientação do **Prof. Dr. Carlos Raniery Paula dos Santos**, o grupo concentra-se no desenvolvimento de arquiteturas de software voltadas a switches programáveis utilizando a linguagem **P4**, com execução e validação em ambientes de simulação como **BMv2 (Behavioral Model v2)** e **Mininet**. Adicionalmente, os projetos integram modelos de **aprendizado de máquina (Machine Learning)**, **redes neurais profundas**, **Large Language Models (LLMs)** e técnicas de **inteligência artificial** com foco em **segurança cibernética, detecção de ameaças e automação inteligente de redes**.
-
----
-
-## 2. Linhas de Pesquisa
-
-### 2.1 Redes Programáveis
-
-* Desenvolvimento de pipelines com a linguagem P4.
-* Simulação de tráfego e comportamento em BMv2.
-* Construção e avaliação de topologias em Mininet.
-* Telemetria e coleta de fluxo para análise adaptativa.
-
-### 2.2 Segurança de Redes Baseada em Inteligência Artificial
-
-* Sistemas inteligentes de detecção e mitigação de ameaças.
-* Análise comportamental de tráfego e detecção de anomalias.
-* Criação de mecanismos reativos baseados em aprendizado de máquina.
-* Implementação de IDS/IPS compatíveis com redes programáveis.
-
-### 2.3 Inteligência Artificial e Computação Cognitiva
-
-* Desenvolvimento de modelos supervisionados e não supervisionados.
-* Aplicação de redes neurais profundas em pipelines de rede.
-* Emprego de **LLMs como agentes cognitivos** para tomada de decisão e explicabilidade.
-* Arquiteturas de Redes Autônomas (*Self-Driving Networks*).
-
-### 2.4 Computação Aplicada à Automação Cognitiva
-
-* Modelagem de sistemas com laços fechados de percepção-decisão-ação.
-* Integração entre redes programáveis e decisões baseadas em IA.
-* Desenvolvimento de orquestradores inteligentes de infraestrutura de rede.
+<p>
+  <img src="https://img.shields.io/badge/Research-Programmable%20Networks-blue"/>
+  <img src="https://img.shields.io/badge/AI%20%26%20ML-Cybersecurity-orange"/>
+  <img src="https://img.shields.io/badge/University-UFSM-green"/>
+  <img src="https://img.shields.io/badge/Language-P4-informational"/>
+  <img src="https://img.shields.io/badge/Emulation-Mininet-yellow"/>
+</p>
 
 ---
 
-## 3. Tecnologias Empregadas
+# 1. Overview
 
-| Domínio                  | Ferramentas                                |
-| ------------------------ | ------------------------------------------ |
-| Programação de redes     | P4, BMv2                                   |
-| Emulação de redes        | Mininet                                    |
-| Modelagem de IA          | TensorFlow, PyTorch, Scikit-Learn          |
-| Modelos de linguagem     | OpenAI API, Hugging Face, LLMs locais      |
-| Segurança cibernética    | IDS/IPS baseados em IA, análise de tráfego |
-| Orquestração inteligente | Agentes cognitivos baseados em LLM         |
+The **GRECA-UFSM (Networks and Applied Computing Research Group)** conducts research in programmable networks, artificial intelligence applied to network security, cognitive automation, and high-performance computing.
 
----
+The group develops:
 
-## 4. Objetivos Estratégicos
-
-* Desenvolver soluções científicas inovadoras para redes programáveis com suporte a inteligência artificial.
-* Integrar modelos de computação aplicada para automação de processos em redes.
-* Criar mecanismos de segurança adaptativa e proativa baseados em aprendizado de máquina.
-* Produzir artigos científicos, relatórios técnicos e ferramentas de código aberto.
-* Capacitar pesquisadores e profissionais especializados em redes programáveis e inteligência artificial aplicada.
+* Programmable data planes using P4
+* BMv2 and Mininet-based simulation and emulation environments
+* Machine learning and deep learning models for threat detection
+* LLM-based cognitive agents and autonomous orchestration systems
+* Foundations for self-driving networks and cognitive infrastructure
 
 ---
 
-## 5. Organização Estrutural dos Projetos
+# 2. Mission, Vision and Values
 
-Os projetos do laboratório são organizados conforme a estrutura abaixo:
+## Mission
+
+To advance scientific knowledge and technological innovation in programmable networks, cybersecurity and intelligent automation through high-impact research and open collaboration.
+
+## Vision
+
+To become a national and international reference in AI-driven network infrastructures that enable secure, autonomous and cognitively enhanced communication systems.
+
+## Core Values
+
+* Scientific Excellence
+* Innovation and Societal Impact
+* Ethical and Responsible AI
+* Transparency and Reproducibility
+* Collaboration and Open Knowledge
+
+---
+
+# 3. Research Areas
+
+### Programmable Networks
+
+* P4 language development
+* BMv2-based simulation and debugging
+* Topology construction in Mininet
+* Telemetry and adaptive flow analysis
+
+### AI-Driven Network Security
+
+* Intrusion detection and prevention using machine learning
+* Behavioral and statistical anomaly detection
+* Automated threat mitigation
+* Integration of AI models in programmable networks
+
+### Cognitive Computing and LLM Agents
+
+* Cognitive controllers for network automation
+* Decision-making pipelines
+* Self-driving network components
+
+### Applied and High-Performance Computing
+
+* Closed-loop perception–decision–action systems
+* Data-intensive models and infrastructure orchestration
+
+---
+
+# 4. Technologies Used
+
+| Domain                | Technologies                              |
+| --------------------- | ----------------------------------------- |
+| Programmable Networks | P4, BMv2                                  |
+| Network Emulation     | Mininet                                   |
+| AI/ML Modeling        | TensorFlow, PyTorch, Scikit-Learn         |
+| Language Models       | OpenAI API, Hugging Face, Local LLMs      |
+| Cybersecurity         | ML-based IDS/IPS, traffic inspection      |
+| Automation            | Cognitive agents, intelligent controllers |
+
+---
+
+# 5. Organization Structure
 
 ```
-/docs               → Relatórios técnicos, artigos e documentação científica
-/p4_programs        → Pipelines e programas em P4
-/mininet            → Scripts de topologias e ambientes de teste
-/ml_models          → Modelos de aprendizado de máquina e deep learning
-/llm_agents         → Agentes cognitivos baseados em LLM
-/security           → Soluções de segurança para redes programáveis
-/integration        → Scripts de integração entre P4, ML e automação inteligente
+/docs               → Technical reports, scientific papers, documentation
+/p4_programs        → P4 pipelines and data plane programs
+/mininet            → Emulated network topologies
+/ml_models          → Machine learning and deep learning models
+/llm_agents         → LLM-based cognitive agents and automation
+/security           → IDS/IPS, anomaly detection, cybersecurity tools
+/integration        → P4 ↔ ML ↔ Telemetry ↔ Orchestration integration
 ```
 
 ---
 
-## 6. Coordenação e Orientação Acadêmica
+# 6. Installation
+
+## Requirements
+
+* Linux (Ubuntu 20.04+ recommended)
+* Python 3.9+
+* Mininet
+* BMv2 and P4C
+* Git
+
+### Install Base Dependencies
+
+```bash
+sudo apt update
+sudo apt install mininet python3-pip git
+```
+
+### Install Python Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### Build BMv2 and P4C
+
+```bash
+git clone https://github.com/p4lang/p4c
+git clone https://github.com/p4lang/behavioral-model
+```
+
+---
+
+# 7. Contribution Guidelines
+
+Contributions from students, researchers and external collaborators are welcome.
+
+## How to Contribute
+
+1. Fork this repository
+2. Create a feature branch
+3. Document your changes
+4. Follow coding and scientific reproducibility standards
+5. Submit a Pull Request
+
+### Coding Standards
+
+* Clean and well-structured code
+* Prefer modular and reproducible implementations
+* Version datasets and experiments
+
+---
+
+# 8. Academic Coordination
 
 **Prof. Dr. Carlos Raniery Paula dos Santos**
-Departamento de Redes e Sistemas – Universidade Federal de Santa Maria (UFSM)
-Áreas de atuação: Redes Programáveis, Inteligência Artificial aplicada à Segurança de Redes, Computação Cognitiva e Automação de Infraestruturas.
+Department of Networks and Systems – UFSM
+Areas: Programmable Networks, AI-based Security, Cognitive Computing and Infrastructure Automation.
 
 ---
 
-## 7. Participação e Colaboração
+# 9. Licensing
 
-O GRECA-UFSM é aberto à participação de estudantes de graduação, pós-graduação e pesquisadores interessados nas áreas de redes, computação aplicada, segurança cibernética e inteligência artificial. Parcerias institucionais e colaborações interdisciplinares são incentivadas.
+Each repository under this organization may define its own license.
+Scientific results follow UFSM academic standards and publication policies.
 
 ---
 
-## 8. Licenciamento e Produção Científica
-
-Os projetos desenvolvidos no laboratório seguem licenças definidas individualmente conforme suas diretrizes de uso. Publicações científicas serão disponibilizadas de acordo com os padrões institucionais da UFSM e os requisitos dos veículos acadêmicos de divulgação.
